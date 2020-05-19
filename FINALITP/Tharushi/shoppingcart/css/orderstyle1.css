@@ -1,0 +1,92 @@
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 900px;
+	background-image: url('../imgs/catdog4.jpg');
+	background-repeat: no-repeat;
+	background-size: 1600px 900px;
+}
+
+#wrapper {
+	background-image: url('../imgs/image.jpg');
+	width: 380px;
+	padding: 10px 20px 20px 20px;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+h4 {
+	color: #ffd633;
+	margin-bottom: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+.row {
+	width: 370px;
+	padding: 5px 0px 5px 10px;
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.3);
+ 	border-radius: 5px;
+ 	margin-bottom: 2px;
+}
+
+input {
+	padding: 5px;
+	border-radius: 3px;
+	border: 0px;
+	width: 200px;
+}
+
+textarea {
+	width: 204px;
+	height: 20px;
+	border: 0px;
+	border-radius: 
+}
+
+#cardButtons label {
+	display: inline;
+	width: 100px;
+}
+
+#cardButtons img {
+	position: relative;
+	top: 3px;
+}
+
+
+#buyButton {
+	text-align: center;
+}
+	#buyButton input {
+		border: 0px;
+		border-radius: 15px;
+		background-color: #04152F;
+		color: white;
+		width: 90px;
+		padding: 5px;
+		margin-top: 10px;	
+	}

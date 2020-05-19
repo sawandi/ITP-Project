@@ -1,0 +1,28 @@
+.main{
+	width: 450px;
+	margin:38px auto;
+	margin-left: 300px;
+	border: 2px solid #ccc;
+	padding: 10px 40px 25px;
+	background-color:#AAA;
+	
+}
+hr{
+	color:black;
+}
+table.table{
+	
+	border-collapse: collapse;
+}
+table.table th{
+	background: #aaa;
+	text-align: left; 
+}
+table.table  th,table.table td{
+	padding:10px;
+	border-bottom: 2px solid #aaa;
+}
+.view{
+	width:100px;
+	margin-right:1000px;
+}

@@ -1,0 +1,95 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px
+ }
+
+
+#profile
+{
+  margin-left:40%;
+  border-radius: 100%;
+  margin-top:10px;
+}
+
+.highlight:hover
+{
+  background-color: #f2f2f2;
+}
+
+hr
+{
+  width: 100px;
+}
+
+.pad
+{
+  padding-right:50px;
+}
+#well h1{
+	color:white;
+	
+}
+#det{
+	
+	padding-top:10px;
+	padding-left:60px;
+	font-size:30px;
+	width : 480px;
+	height:350px;
+	margin:auto;
+	border-radius:10px;
+	opacity:.9;
+	border:black;
+	background-color:white;
+	
+}
+#det input{
+	
+	margin-left:50px;
+	margin-top:20px;
+	width:265px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	padding-left:10px;
+}
+
+#det input[value]{
+	
+	font -size : 1.3em;
+	padding-left : 5%;
+	
+	
+}
+
+#det lable{
+	
+	margin-left:20px;
+	margin-top:20px;
+	width:265px;
+
+	font-size:15px;
+	border-radius:5px;
+	
+}
+#navi button{
+	
+	text-align:center;
+	margin-top:10px;
+	width:150px;
+	border-radius:10px;
+	margin-left:70px;
+	font-size:20px;
+	cursor:pointer;
+	color:white;
+	padding:1px;
+	
+	
+}
+
+a{
+	margin-left:100px;
+}
+	

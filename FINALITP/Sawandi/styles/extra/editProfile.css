@@ -1,0 +1,64 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px
+ }
+
+
+#nav{
+	
+	padding-top:2px;
+	padding-left:70px;
+	font-size:30px;
+	background-color: #FDD835  ;
+	width : 500px;
+	height:685px;
+	margin:auto;
+	border-radius:10px;
+	opacity:.7;
+}
+#nav input{
+	
+	
+	margin-top:10px;
+	width:270px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	margin-left: 60px;
+}
+
+#nav input[placeholder]{
+	
+	font -size : 1.3em;
+	padding-left : 5%;
+	padding-right : 5%;
+	font-weight: bold;
+}
+
+#nav input[name="chkbx"]{
+	
+	width:25px;
+	margin-left: 60px;
+}
+
+#nav input[name="update"]{
+	
+	margin-top:10px;
+	width:170px;
+	border-radius:50px;
+	margin-left:120px;
+	font-size:25px;
+	font-weight: bold;
+	background-color:#2ECC71 ;
+	cursor:pointer;
+}
+
+#nav lable{
+
+	padding-top:10px;
+	margin-top:5px;
+	font-size:25px;
+}
+

@@ -1,0 +1,99 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px
+ }
+ lable,p,span{
+ 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	font-size:15px;
+	float:left;
+	width:3%;
+	text-align:left;
+	margin-right:5px; 
+	display:inline-block;
+	 display: flex;
+
+}
+#nav{
+	
+	padding-top:20px;
+	padding-left:60px;
+	font-size:30px;
+	background-color:#2A242A ;
+	width :440px;
+	height:240px;
+	margin:auto;
+	border-radius:10px;
+	opacity:.7;
+}
+#nav input{
+	
+	
+	margin-top:20px;
+	width:250px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	margin-left: 60px;
+}
+	
+#nav input[name="chkbx"]{
+	
+	width:25px;
+}
+
+#nav input[name="search"]{
+	
+	margin-top:10px;
+	width:120px;
+	border-radius:50px;
+	margin-left:150px;
+	font-size:20px;
+	font-weight: bold;
+	background-color:#2ECC71 ;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+ width: 20%; 
+  background-color: #f1f1c1;
+  border-spacing: 2px;
+}
+
+table tr:nth-child(even) {
+  background-color:#DEB5B4;
+  color: #900C3F;
+  font-family:Lucida Sans Unicode;
+}
+table tr:nth-child(odd) {
+  background-color:#C5B9CD;
+  color: black;
+   font-family:Lucida Sans Unicode;
+}
+table th {
+  color: black;
+  font-size:1.3em;
+  background-color: white;
+   font-family:Time New Roman;
+ 
+}
+
+table tr{
+	
+	 font-size:1em;
+	 font-weight:bold;
+}

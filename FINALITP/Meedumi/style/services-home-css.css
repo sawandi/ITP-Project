@@ -1,0 +1,65 @@
+body{margin: 0;font-family: 'Poppins', sans-serif;}
+#container{min-height:100vh; font-size: 3vh;}
+#header{ clear: both; overflow: hidden; padding: 3vh;}
+#main-title{float:left;  font-size: 3.5vh;  font-family: 'Raleway', cursive;}
+#main-title h2{font-weight: 800;padding: 0; margin: 0;}
+#main-title small{padding-left: 0.5em; font-weight: 300;}
+.top{font-weight: 800; border-bottom: solid 1px #000; padding-bottom: 0.7vh; margin-bottom: 0.7vh;font-family: 'Raleway', cursive;}
+.bottom{font-weight: 300; clear: both;font-family: 'Raleway', cursive;}
+
+#legend{float: right; color: #ccc;}
+
+
+.row{ display: flex;  align-items: center; color: #fff; }
+.row .top{border-color: #fff;font-size: 3.5vh}
+.row .bottom{font-size: 3.vh;}
+.bullet{ background-color: white; border-radius: 100%; height: 15vh; width: 15vh; text-align: center; font-size: 7vh; line-height: 15vh;}
+.title{ border-radius: 14vh; padding: 3.5vh 3vh; display: flex;  align-items: center;justify-content: space-between;  width: 20vh; flex-basis: 60%;}
+.info{margin:0 4vh; padding: 0 4vh;}
+
+.row-left{margin-left: 12vh;  border-top-left-radius: 12vh;border-bottom-left-radius: 12vh; }
+.row-right{margin-right: 12vh;  border-top-right-radius: 12vh;border-bottom-right-radius: 12vh; }
+.row-left .info{border-left:solid 1px #fff; font-size: 2vh;}
+.row-right .info{border-right: solid 1px #fff; font-size: 2vh;}
+.row-right .title{order:2;}
+
+#first{background-color: #ffe183;}
+#first .bullet{color:  #ffc72f;}
+#first .title{background-color: #ffc72f;}
+
+#second{background-color: #ff9c4c;}
+#second .bullet{color:  #ff8e00;}
+#second .title{background-color: #ff8e00; }
+
+#third{background-color: #ff6170;}
+#third .bullet{color:  #ff2c53;}
+#third .title{background-color: #ff2c53;}
+
+#fourth{background-color: #c90952;}
+#fourth .bullet{color:  #a20040;}
+#fourth .title{background-color: #a20040;}
+
+.fa-animated-cms::before{content: "\f19a"; animation: changeCMSIcon 6s linear infinite;}
+.fa-animated-mobile::before{content: "\f10b"; animation: changeMobileIcon 8s linear infinite;}
+.fa-animated-seo::before{content: "\f002"; animation: changeSEOIcon 6s linear infinite;}
+/* it works only in chrome :( */
+@keyframes changeCMSIcon {
+  0% {content: "\f19a";}
+  33% {content: "\f1a9";}
+  66% {content: "\f1aa";}
+}
+
+/* it works only in chrome :( */
+@keyframes changeMobileIcon {
+  0% {content: "\f10b";}
+  25% {content: "\f17b";}
+  50% {content: "\f179";}
+  75% {content: "\f17a";}
+}
+
+/* it works only in chrome :( */
+@keyframes changeSEOIcon {
+  0% {content: "\f002";}
+  33% {content: "\f155";}
+  66% {content: "\f201";}
+}

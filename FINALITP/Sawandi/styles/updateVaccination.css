@@ -1,0 +1,63 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px
+ }
+
+
+#nav{
+	
+	padding-top:5px;
+	padding-left:60px;
+	font-size:30px;
+	background-color: #795548;
+	width : 550px;
+	height:800px;
+	margin:auto;
+	border-radius:10px;
+	opacity:.9;
+}
+#nav input{
+	
+	margin-top:5px;
+	width:250px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	margin-left: 110px;
+	font-weight: bold;
+}
+
+#nav input[name="chkbx"]{
+	
+	width:25px;
+	margin-left: 5px;
+}	
+
+#nav input[name="update"]{
+	
+	margin-top:10px;
+	width:150px;
+	border-radius:50px;
+	margin-left:170px;
+	font-size:20px;
+	font-weight: bold;
+	background-color:#04152F ;
+	cursor:pointer;
+	color:white;
+}
+
+#nav lable{
+
+	padding-top:10px;
+	margin-top:5px;
+	font-size:15px;
+}
+
+#output{
+
+	background-color: white;
+	width:50%;
+	/*margin-left:300px;*/
+}

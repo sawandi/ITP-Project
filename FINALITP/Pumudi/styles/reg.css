@@ -1,0 +1,95 @@
+{
+	margin : 0;
+	padding : 0;
+	font-family : 'Source Sans Pro', sans-serif;
+}
+
+body{
+	background-image : url("styles/images/bunch.jpg");
+	background-size : cover;
+}
+ .container{
+	
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	width : 98vw;
+	height : 97vw;
+}
+
+ .inner{
+	
+	width : 30vw;
+	height : 12vh;
+	background-color : rgba(255,255,255,0,72);
+	border-radius : 10px;
+}
+
+ .title{
+	
+	width : 30vw;
+	height : 12vw;
+	display : flex;
+	align-items : center;
+	background-color : rgba(6,234,41,0,38);
+	color : #ffffff;
+}
+
+ .title h3{
+	
+	padding-left : 8%;
+	font-size : 2em;
+}
+
+ .content{
+	
+	border-bottom : 1px solid white;
+	height : 37vh;
+}
+
+ .txt1{
+	
+	background-color : #fffefe;
+	margin-top: 5%;
+	margin-left : 8%;
+	width :25vw;
+}
+
+ .txt2{
+	
+	background-color : #fffefe;
+	margin-top : 1%;
+	margin-left : 8%;
+	width : 25vw;
+}
+
+.txt1 span{
+	
+	padding-right : 2%;
+	padding-left : 2%;
+}
+
+.glyphicon{
+	
+	color : #b2b2b2;
+	font-size : 18px;
+}
+
+.content input{
+	
+	width : 22vw;
+	padding-top : 2%;
+	padding-bottom: 2%;
+	border : 0;
+}
+
+.content input[placeholder]{
+	
+	font -size : 1.3em;
+	padding-left : 5%;
+	padding-right : 5%;
+}
+	
+
+
+	

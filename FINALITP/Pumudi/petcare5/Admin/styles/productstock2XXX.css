@@ -1,0 +1,68 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px
+ }
+ 
+ lable,p,span{
+ 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	font-size:15px;
+	float:left;
+	width:20%;
+	text-align:left;
+	margin-right:10px; 
+	display:inline-block;
+	 display: flex;
+
+}
+
+h2{
+	font-size:30px;
+ 	color: #0033cc;
+ 	width: 300px;
+ 	margin: 5% auto;
+}
+
+#nav{
+	
+	padding-top:20px;
+	padding-left:60px;
+	font-size:30px;
+	background-color:#2A242A ;
+	width : 470px;
+	height:580px;
+	margin:auto;
+	border-radius:10px;
+	opacity:.7;
+}
+#nav input{
+	width: 50%;
+ 	padding: 12px 5px ;
+ 	margin: 8px 4px;
+ 	display: inline-block;
+	border: 2px solid #ccc;
+ 	border-radius: 5px;
+ 	box-sizing: border-box;
+	
+	
+}
+	
+#nav input[name="chkbx"]{
+	
+	width:25px;
+}
+
+#nav input[name="update"]{
+	
+	margin-top:10px;
+	width:150px;
+	border-radius:50px;
+	margin-left:150px;
+	font-size:20px;
+	font-weight: bold;
+	background-color:#2ECC71 ;
+}
+
+

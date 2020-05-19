@@ -1,0 +1,87 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px
+}
+
+ #nav input[type=radio] {
+    border: 0px;
+    width: 8%;
+    height: 1.3em;
+	
+	
+}
+ lable,p,span{
+ 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: white;
+	font-size:15px;
+	width:150%;
+	float:left;
+	margin-right:0px; 
+	display:inline-block;
+	 display: flex;
+
+}
+
+#nav{
+	
+	padding-top:10px;
+	padding-left:60px;
+	font-size:25px;
+	background-color:#2A242A;
+	width :780px;
+	height:590px;
+	margin:auto;
+	border-radius:20px;
+	opacity:.7;
+}
+#nav input{
+	
+	
+	margin-top:20px;
+	width:280px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	margin-left: 60px;
+}
+
+#nav select{
+	
+	
+	margin-top:20px;
+	width:280px;
+	height:35px;
+	font-size:15px;
+	border-radius:5px;
+	margin-left: 60px;
+}
+
+#nav input[name="chkbx"]{
+	
+	width:25px;
+}
+
+#nav input[name="update"]{
+	
+	margin-top:0px;
+	width:110px;
+	border-radius:50px;
+	margin-left:80px;
+	font-size:20px;
+	font-weight: bold;
+	background-color:#2ECC71 ;
+}
+.horizontal-group .left{
+  float:left;
+  width:40%;
+}
+.horizontal-group .right{
+  float:right;
+  width:30%;
+}
+.horizontal-group .center{
+  float:right;
+  width:75%;
+}

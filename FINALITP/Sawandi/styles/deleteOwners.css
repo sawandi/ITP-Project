@@ -1,0 +1,80 @@
+body,html
+{     
+	height: 100%;    
+	font-family: 'Lato', sans-serif;
+	padding-top: 10px;
+ }
+
+
+#nav{
+	
+	padding-top:5px;
+	padding-left:20px;
+	font-size:30px;
+	background-color: #795548;
+	width : 500px;
+	height:380px;
+	margin:auto;
+	border-radius:10px;
+	opacity:.7;
+	margin-left:20px;
+}
+#nav input{
+	
+	margin-top:5px;
+	width:250px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	margin-left: 70px;
+	font-weight: bold;
+}
+
+#nav input[name="chkbx"]{
+	
+	width:25px;
+}
+#nav input[placeholder]{
+	
+	font -size : 1.3em;
+	padding-left : 5%;
+	padding-right : 5%;
+	font-weight: bold;
+}
+#nav h3{
+
+	margin-left:10px;
+}	
+#nav input[name="delete"]{
+	
+	margin-top:40px;
+	width:200px;
+	border-radius:50px;
+	margin-left:120px;
+	font-size:20px;
+	font-weight: bold;
+	background-color:#04152F;
+	cursor:pointer;
+	color:white;
+}
+
+
+#nav lable{
+
+	padding-top:10px;
+	margin-top:5px;
+	font-size:20px;
+	font-weight: bold;
+}
+
+#output{
+
+	background-color: white;
+	width:60%;
+	/*margin-left:300px;*/
+}
+/*#direction{
+	
+	background-color: #795548;
+	height:10%;
+}*/

@@ -1,0 +1,65 @@
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 9px;
+}
+
+th {
+  text-align: left;
+}
+
+
+table tr:nth-child(even) {
+ background-color:#ffffff;
+  color: #900C3F;
+  font-family:Lucida Sans Unicode;
+  font-size:1em;
+}
+table tr:nth-child(odd) {
+ background-color:#ffffff;
+  color: black;
+   font-family:Lucida Sans Unicode;
+   font-size:1em;
+}
+table th {
+  color: black;
+  font-size:1em;
+  background-color: white;
+   font-family:Time New Roman;
+ 
+}
+
+table tr{
+	
+	 font-size:1em;
+	 font-weight:bold;
+}
+.button1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #999;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+
+}
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+

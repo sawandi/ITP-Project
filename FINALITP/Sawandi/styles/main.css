@@ -1,0 +1,80 @@
+body{
+	font-family: Arial,"helvetica Neue",Helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+main{
+	width: 1000px;
+	margin:38px auto;
+	margin-left: 300px;
+}
+main h1{
+	margin-bottom: 20px;
+	font-size: 50px;
+}
+main h1 span{
+	font-size: 20px;
+}
+table.masterlist{
+	width:100%;
+	border-collapse: collapse;
+}
+table.masterlist th{
+	background: #aaa;
+	text-align: left; 
+}
+table.masterlist  th,table.masterlist td{
+	padding:10px;
+	border-bottom: 1px solid #aaa;
+}
+form.servform label{
+	width:15%;
+	float: left;
+	font-size: bold;
+}
+form.servform input{
+	width:60%;
+	padding: 10px 10px;
+	border:none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+form.servform select{
+	width:60%;
+	position: relative;
+	display: block;
+	padding: 10px 20px;
+	border:none;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+}
+form.servform input[type="textarea"]{
+  width:60%;
+  height:150px;
+  padding:12px 20px;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  resize:none;
+
+}
+form.servform button{
+	width:200px;
+	color:white;
+	padding:10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #003380;
+}
+form.servform input[type="button"]{
+		width:200px;
+	color:white;
+	padding:10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #003380;
+}
+	
+.errmsg{
+	margin:20px 0;
+}
+
